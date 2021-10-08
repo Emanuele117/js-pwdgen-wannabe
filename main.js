@@ -11,5 +11,5 @@ const userLastName = prompt("qual'è il tuo cognome");
 const userColor = prompt("qual'è il tuo colore preferito?");
 
 
-
+document.getElementById('password').innerHTML = userName + userLastName + userColor + 21;
 
